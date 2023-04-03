@@ -1,0 +1,81 @@
+/* 1st section background color - #FFFFFF */
+/* 2nd section and footer background color - #2F303A */
+/* 3rd section bacckground color - #F5F5F5 */
+/* 4th section bacckground color - #F5F4FA */
+/* color: #DDA0DD - orchid*/
+/* background color - #E6E6FA - lavender */
+/* color 2 : #BA55D3 - medium orchid */
+/* base text color #212121 */
+/* secondary text color #757575 */
+/* accent - #2196F3 */
+/* primary background color - #FFFFFF */
+:root {
+    --primary-text-color: #757575;
+    --primary-title-color: #212121;
+    --accent-color: #2196F3;
+    --secondary-title-color: #FFFFFF;
+    --secondary-text-color: rgba(255,255,255,0.6);
+    --primary-background-color: #2F303A;
+}
+
+
+body {
+    background-color: var(--secondary-title-color);
+    color: var(--primary-title-color);
+}
+.list {
+    list-style: none;
+}
+/* Site nav */
+.site-nav .link,
+.links .e-mail-link,
+.links .phone-link {
+    color: var(--primary-title-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.links .e-mail-link:hover,
+.links .phone-link:hover,
+.links .e-mail-link:focus,
+.links .phone-link:focus {
+    color: var(--accent-color);
+}
+/* Hero */
+.hero .title {
+    background-color: var(--primary-background-color);
+    color: var(--secondary-title-color);
+}
+.hero .button {
+    background-color: var(--accent-color);
+    color: var(--secondary-title-color);
+}
+
+/* Section */
+.section > .title {
+    color: var(--primary-title-color);
+}
+/* Skills */
+.feature > .title {
+    color: var(--primary-title-color);
+}
+.feature > .text {
+    color: var(--primary-text-color);
+}
+
+/* our team */
+.section > .employee {
+    color: var(--primary-title-color);
+}
+.employee > .position {
+    color: var(--primary-text-color);
+}
+/* footer */
+.page-footer {
+    background-color: var(--primary-background-color);
+}
+.page-footer .address {
+    color: var(--secondary-title-color);
+}
+.page-footer .contact {
+    color: var(--secondary-text-color);
+}
