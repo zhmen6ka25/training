@@ -26,7 +26,15 @@ body {
 .list {
     list-style: none;
 }
+
+/* logo splitting training */
+
+.logo {
+    align-items: center;
+}
+
 /* Site nav */
+
 .site-nav .link,
 .links .e-mail-link,
 .links .phone-link {
@@ -40,7 +48,9 @@ body {
 .links .phone-link:focus {
     color: var(--accent-color);
 }
+
 /* Hero */
+
 .hero .title {
     background-color: var(--primary-background-color);
     color: var(--secondary-title-color);
@@ -51,10 +61,13 @@ body {
 }
 
 /* Section */
+
 .section > .title {
     color: var(--primary-title-color);
 }
+
 /* Skills */
+
 .feature > .title {
     color: var(--primary-title-color);
 }
@@ -63,13 +76,16 @@ body {
 }
 
 /* our team */
+
 .section > .employee {
     color: var(--primary-title-color);
 }
 .employee > .position {
     color: var(--primary-text-color);
 }
+
 /* footer */
+
 .page-footer {
     background-color: var(--primary-background-color);
 }
